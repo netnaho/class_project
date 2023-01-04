@@ -1,0 +1,27 @@
+main {
+  background-color: rgb(145, 181, 190);
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 500px auto;
+  line-height: 1.7;
+}
+main div:nth-child(1) {
+  background-image: url(img/tayituhotel.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+main div:nth-child(2) {
+  width: 700px;
+  margin: 0 auto;
+}
+main > div > p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+main > div > h1 {
+  margin-bottom: 30px;
+}
+main > div > h2 {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,14 @@
+main {
+  background-color: rgb(145, 181, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-align: center;
+  line-height: 1.4;
+}
+main > div {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 900px;
+}

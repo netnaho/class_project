@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.item1 {
+  background-color: blue;
+  width: 1000px;
+  height: 200px;
+}
+.item2 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,89 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  background-color: rgb(145, 181, 190);
+}
+
+main input {
+  width: 400px;
+  height: 40px;
+  padding: 5px 35px;
+  border-radius: 15px;
+  padding-left: 10px;
+  border: 0;
+  box-shadow: 0px 0px 3px black;
+  outline: 0;
+}
+main span {
+  padding: 10px 15px;
+  background-color: rgb(6, 75, 104);
+  border-radius: 15px;
+  color: white;
+}
+::placeholder {
+  font-size: 1.1rem;
+}
+main > h1 {
+  margin-top: 30px;
+}
+main > h1,
+main > p,
+main > div {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+main > div {
+  margin-bottom: 30px;
+}
+.sec-hotels {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.hotel-content {
+  box-shadow: 0px 0px 10px black;
+  border: 1px solid white;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-right: 30px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  background-color: rgb(5, 31, 53);
+  color: white;
+}
+.hotel-content img {
+  width: 520px;
+  object-fit: cover;
+}
+.hotel-content button {
+  margin: 0;
+  color: white;
+}
+.sec-hotels div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hotel-des div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.hotel-des h1 {
+  margin-bottom: 25px;
+}
+.hotel-des h2 {
+  text-align: end;
+  margin-bottom: 30px;
+}
+.hotel-des li {
+  margin-bottom: 10px;
+}
