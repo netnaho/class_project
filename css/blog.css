@@ -7,7 +7,7 @@ main {
   line-height: 1.7;
 }
 main div:nth-child(1) {
-  background-image: url(img/tayituhotel.jpg);
+  background-image: url(../img/tayituhotel.jpg);
   background-size: cover;
   background-position: bottom center;
 }
